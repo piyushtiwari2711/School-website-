@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme{
+    --font-Nuntio:"Nunito", sans-serif;
+    --font-Sevillana:"Sevillana", cursive;
+}
