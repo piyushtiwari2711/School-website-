@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "school-website-root",
+  "version": "1.0.0",
+  "scripts": {
+    "frontend:install": "npm --prefix ./School-website install",
+    "frontend:dev": "npm --prefix ./School-website run dev",
+    "backend:install": "npm --prefix ./School-website/backend install",
+    "backend:dev": "npm --prefix ./School-website/backend run dev",
+    "dev": "npm run frontend:dev"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
